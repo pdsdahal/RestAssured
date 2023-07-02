@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="bootcampautomation" verbose="1" >
+ 
+ <test name="webautomation" >
+    <classes>
+      <class name="com.restassuredapi.tests.LoginTest" />
+     <class name="com.restassuredapi.tests.UserTest" />  
+    </classes>
+  </test>
+</suite>

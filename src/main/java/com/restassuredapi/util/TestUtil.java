@@ -9,7 +9,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 public class TestUtil {
 	
 	static String baseDirectoryProject = System.getProperty("user.dir");
-	static String filePath = baseDirectoryProject + "\\src\\test\\resources\\TestDataRegistrationPage.xlsx";
+	static String filePath = baseDirectoryProject + "\\src\\test\\resources\\data.xlsx";
 
 	public static Object[][] readTestData(String sheetName) {
 		
@@ -39,9 +39,5 @@ public class TestUtil {
 		return null;
 		
 	}
-	
-	
-	
-	
 	
 }
